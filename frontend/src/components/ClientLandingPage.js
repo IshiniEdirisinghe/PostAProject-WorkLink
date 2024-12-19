@@ -6,7 +6,7 @@ const ClientLandingPage = () => {
     <div>
       {/* Welcome Section */}
       <section className="welcome-section">
-        <h2>Welcome, Client!</h2>
+        <h2>Welcome to WorkLink!</h2>
         <p>Post and manage your projects efficiently, and collaborate with top freelancers.</p>
       </section>
 
