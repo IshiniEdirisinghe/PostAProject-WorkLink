@@ -1,30 +1,95 @@
-.client-landing-page {
+body {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-.header {
+.welcome-section {
+  background-color: #4e5aff;
+  color: white;
   text-align: center;
-  margin-bottom: 20px;
+  padding: 50px 20px;
 }
 
-.projects-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.welcome-section h2 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.welcome-section p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 20px;
   gap: 20px;
 }
 
-.project-card {
-  border: 1px solid #ccc;
+.feature-card {
+  background-color: white;
   border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+  text-align: center;
 }
 
-.project-card h3 {
-  margin: 0 0 10px;
+.feature-card h3 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
 }
 
-.project-card p {
-  margin: 5px 0;
+.feature-card p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+.reporting-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.reporting-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.reporting-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.report-card {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-card h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
 }
